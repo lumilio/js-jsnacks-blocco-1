@@ -7,11 +7,18 @@
     <title>Document1</title>
 </head>
 <body>
-
     <script>
-        const first = prompt('inserisci il primo numero')
-        const decond = prompt('inserisci il secondo numero')
+        const first = Number(prompt('inserisci il primo numero'))
+        const second = Number(prompt('inserisci il secondo numero'))
+        if (first < second ){
+            console.log('il numero maggiore è ' +second);
+        }
+        else if (first > second ){
+            console.log('il numero maggiore è ' + first);
+        }
+        else if (first == second ){
+            console.log('i numeri sono uguali');
+        }
     </script>
-    
 </body>
 </html>
